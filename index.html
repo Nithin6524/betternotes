@@ -1,8 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <body >
-  <div id="root">
-    
-  </div>
+<html lang="en">
+  <head>
+    <title>My First React Example</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Include React and ReactDOM from CDN -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+    <!-- Include Babel from CDN -->
+    <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Your React component script -->
+    <script type="text/babel">
+      // Your React component code here
+       const App = () => {
+        return (
+          <div>
+            <h1>Hello, React!</h1>
+          </div>
+        );
+      };
+
+      ReactDOM.render(<App />, document.getElementById('root')); 
+    </script>
   </body>
 </html>
