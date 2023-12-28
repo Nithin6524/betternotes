@@ -1,17 +1,19 @@
 body{
-    background-color:  #0d0635; 
-    min-width:150px;
+    background-color: black;
+   
+}
+.Home{
+    color:#FFFFFE;
 }
 .home-title{
-    color: #FFFFFE;
-   margin-top:130px;
+    position: absolute;
+       top:120px;
     text-align: center;
     font-family: sans-serif;
-    letter-spacing: 0cap;
+    letter-spacing: 0.12cap;
     line-height: 1cem;
-    font-size: 50px;
+    font-size: 75px;
     min-width:100px;
-    
 }
 
 img{
@@ -49,4 +51,10 @@ img{
     filter: brightness(120%);
     cursor:pointer;
     transition-delay: 0.05s;
+}
+.mode{
+  padding: 10px 10px 10px 10px;
+border-radius: 10px;
+border:3px ;
+
 }
