@@ -1,10 +1,11 @@
 import React from "react"
-import ReactDOM from "react-dom"
-export default function App()
-{
+import Home from "./Components/Home.jsx"
+function App() {
     return (
-        <p>
-            hii
-        </p>
-    )
-}
+    <div>
+      <Home/>
+      </div>)
+
+  }
+  
+  export default App;
